@@ -235,7 +235,7 @@ header .navigation li a:hover {
 
 .gallery-box {
   background: linear-gradient(rgba(81, 81, 81, 0.9),
-      rgba(0, 0, 0, 0.1)), url("../img/work.png");
+      rgba(0, 0, 0, 0.1)), url(../img/work.png);
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -299,7 +299,7 @@ header .navigation li a:hover {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.1));
+      rgba(0, 0, 0, 0.1)), url(../img/tog.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -367,7 +367,7 @@ input[type=submit]:hover {
 }
 
 #contact-us {
-  background-image: url("../img/work.png");
+  background-image: url(../img/contact.jpg);
 }
 
 .container-el {
